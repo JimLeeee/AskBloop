@@ -1,0 +1,13 @@
+{
+  "name": "@bloop/desktop",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "tsc": "tsc",
+    "vite-build": "vite build",
+    "build": "npm-run-all tsc vite-build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  }
+}
